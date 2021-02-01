@@ -99,6 +99,10 @@ body{
 .live .name
 {
 	font-size: 12px;
+	width:40px;
+	text-overflow:ellipsis;
+	white-space:no-wrap;
+	overflow:hidden;
 	padding-top: 20px;
 }
 .live .profile-pic
